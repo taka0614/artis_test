@@ -1,0 +1,125 @@
+.space{
+    width:100%;
+    height:800px;
+    text-align:center;
+  }
+  
+  
+  .works {
+    width: 100%;
+    background-color: #363636;
+    overflow: hidden;
+  }
+  .works-title {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .works-title h1 {
+    text-align: center;
+    position: relative;
+    width: 140px;
+    margin: 0 auto;
+    z-index: 1;
+    padding: 12px 0;
+  }
+  .works-title h1 img {
+    position: absolute;
+    left: 0;
+    top: 16px;
+    z-index: -1;
+  }
+  .works-container {
+    width: 100%;
+  }
+  .works-container-inner {
+    width: 100%;
+    position: relative;
+    /* 横スクロールセクション */
+  
+    /* 実績 */
+  }
+  .works-container-inner .side-scroll {
+    width: 100%;
+  }
+  .works-container-inner .side-scroll-list-wrapper {
+    position: relative;
+    width: 100%;
+    height: 700px;
+  }
+  .works-container-inner .side-scroll-list {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    display: flex;
+    gap: 0px 80px;
+  }
+  .works-container-inner .side-scroll-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 400px;
+    height: 420px;
+  }
+  .works-container-inner .side-scroll-item + .side-scroll-item {
+    margin: 0 0;
+  }
+  .works-container-inner .works-container-inner-item {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0 10px 0;
+  }
+  .works-container-inner .works-container-inner-item .works-img {
+    width: 100%;
+  }
+  .works-container-inner .works-container-inner-item .works-img img {
+    width: 100%;
+  }
+  .works-container-inner .works-container-inner-item .works-header {
+    width: 100%;
+    margin: 0 auto;
+    padding: 12px 0px;
+  }
+  .works-container-inner .works-container-inner-item .works-header p {
+    color: #ffffff;
+    font-family: "Courgette", cursive;
+    font-family: "Roboto Flex", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.6rem;
+    letter-spacing: 0.03em;
+    padding: 0 0 2px 0;
+  }
+  .works-container-inner .works-container-inner-item .works-header h2 {
+    color: #ffffff;
+    font-family: "Sawarabi Gothic", sans-serif;
+    font-size: 1.6rem;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+  .works-container-inner .works-container-inner-item .works-body {
+    width: 100%;
+    padding: 0 4px;
+    font-size: 1.6rem;
+    font-family: "Courgette", cursive;
+    font-family: "Roboto Flex", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .works-container-inner .works-container-inner-item .works-body dl {
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .works-container-inner .works-container-inner-item .works-body dl dt {
+    width: 30%;
+    padding: 10px 0;
+  }
+  .works-container-inner .works-container-inner-item .works-body dl dt::after {
+    content: ":";
+  }
+  .works-container-inner .works-container-inner-item .works-body dl dd {
+    width: 70%;
+    padding: 10px 0;
+    line-height: 1.26;
+  }
+  
+  /* /制作実績 */
